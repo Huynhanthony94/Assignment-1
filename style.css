@@ -1,0 +1,109 @@
+body{
+  font-size:sans-serif;
+  font-size:18px;
+  line-height:1.5;
+  margin:30px auto;
+  padding:50px;
+  background:#f6f6f6;
+  width:90%;
+  border-top:5px solid #222;
+  border-bottom:5px solid #222;
+}
+
+p{
+  margin-top: 0px;
+}
+
+h1 {
+  text-transform:uppercase;
+  font-weight: bold;
+  text-align:center;
+  color:#030609;
+  margin-top:0;
+  font-family:sans-serif;
+}
+
+h2, h3{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+nav{
+  color:#222;
+  text-align: center;
+}
+
+nav ul{
+  list-style-type: none;
+  margin:0;
+}
+
+nav li{
+  display: inline-block;
+}
+
+li {
+  font-weight:bold;
+  color:#030609;
+  font-family:sans-serif;
+
+}
+
+.current_page {
+  font-style: italic;
+}
+
+.about_image{
+  height:200px;
+  float:right;
+  padding:5px;
+  border:1px solid #222;
+  margin-left:20px;
+  margin-bottom:20px;
+}
+
+hr{
+  border:none;
+  border-top:1px solid #222;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+/*.current_page.heading {
+  font-style:normal;
+}*/
+
+/*Portfolio*/
+
+.portfolio-list{
+  list-style-type: square;
+}
+
+.portfolio-date{
+  font-size:12px;
+}
+
+.portfolio-image{
+  width:500px;
+  margin-bottom:30px;
+  border:1px solid #222;
+}
+
+
+.timeline{
+  font-size:12px;
+  display: inline-block;
+  font-weight: normal;
+}
+
+.position{
+  font-style: italic;
+  display: inline-block;
+}
+
+.company{
+  font-weight:normal;
+  display: inline-block;
+  font-size:17px;
+}
